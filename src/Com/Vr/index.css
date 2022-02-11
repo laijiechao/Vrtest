@@ -1,0 +1,45 @@
+.box {
+  position: relative;
+}
+
+#viewer {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+.box1 {
+  height: 100vh;
+}
+.left {
+  z-index: 999;
+  transition: all 0.3s;
+  position: absolute;
+  top: 50%;
+  border-radius: 10px;
+  background-color: rgba(208, 208, 208, 0.3);
+  font-size: 48px;
+  color: #fff;
+}
+
+.right {
+  z-index: 999;
+
+  transition: all 0.3s;
+  position: absolute;
+  top: 50%;
+  border-radius: 10px;
+  color: #fff;
+  background-color: rgba(208, 208, 208, 0.3);
+  font-size: 48px;
+  right: 0;
+}
+
+.left:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+}
+.right:hover {
+  transform: translateY(-6px);
+  cursor: pointer;
+}
